@@ -77,6 +77,11 @@ p {
   line-height: 110%;
   color: #F1CDB3;
   letter-spacing: 0.06em;
+  transition: all 0.9s;
+}
+
+.logo-house:hover {
+  color: #FAFAFA
 }
 
 .subtitle-logo {
@@ -176,7 +181,13 @@ p {
   padding: 16px 45px;
   background: #F1CDB3;
   border-radius: 100px;
+  transition: all 0.8s;
 }
+
+.button:hover {
+  color: #FAFAFA;
+}
+
 .start-button {
   font-family: 'Georgia';
   font-style: normal;
