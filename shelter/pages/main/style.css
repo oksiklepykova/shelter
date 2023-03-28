@@ -181,11 +181,12 @@ p {
   padding: 16px 45px;
   background: #F1CDB3;
   border-radius: 100px;
-  transition: all 0.8s;
+  transition: all 0.8s ease-out;
 }
 
-.button:hover {
+.button:hover, .button:hover {
   color: #FAFAFA;
+  background-color: #d39568;
 }
 
 .start-button {
@@ -325,7 +326,8 @@ p {
   letter-spacing: 0.06em;
   border: none; 
   margin-top: 59px;
-  margin-left: 17px
+  margin-left: 17px;
+  color: #292929;
 }
 
  /*  slider  */
@@ -444,6 +446,12 @@ p {
   border-radius: 9px;
   max-width: 349px;
   max-height: 43px;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+.credit-content:hover {
+  background-color: #d39568;
 }
 
 .donat-tel {
@@ -456,6 +464,10 @@ p {
   letter-spacing: 0.06em;
   padding-left: 10px;
   color: #545454;
+}
+
+.donat-tel:hover {
+  color: #FAFAFA;
 }
 
 .information {
@@ -545,6 +557,11 @@ p {
   line-height: 115%;
   letter-spacing: 0.06em;
   color: #F1CDB3;
+  transition: all 0.5s;
+}
+
+.email:hover, .phone:hover, .city1:hover, .city2:hover{
+  color:#FAFAFA;
 }
 
 .map-1 {
