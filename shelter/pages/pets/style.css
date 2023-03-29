@@ -120,7 +120,7 @@ h3 {
 }
 
 .active:hover {
-    border-bottom: 0;
+    color: #545454;
 }
 
 /* main  */

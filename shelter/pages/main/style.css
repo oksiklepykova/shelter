@@ -53,7 +53,8 @@ p {
 
 .header {
   padding-top: 30px;
-  background: url(noise_lines_transparent@2X.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%); 
+  background: url(noise_lines_transparent@2X.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat; 
+  background-repeat: no-repeat;
 }
 
 .header__container {
@@ -105,15 +106,6 @@ p {
   margin-right: -16px;
 }
 
-.active {
-  padding-bottom: 5px;
-  border-bottom: 3px solid #F1CDB3;
-}
-
-.active:hover  {
-  border-bottom: 0;
-}
-
 .nav-list:first-child {
   padding-left: 0;
 }
@@ -130,6 +122,15 @@ p {
 
 .nav-link:hover {
   color: #F1CDB3;
+}
+
+.active {
+  padding-bottom: 5px;
+  border-bottom: 3px solid #F1CDB3;
+}
+
+.active:hover {
+  color: #CDCDCD;
 }
 
 
