@@ -68,6 +68,11 @@ h3 {
     line-height: 110%;
     color: #545454;
     letter-spacing: 0.06em;
+    transition: all 0.8s;
+}
+
+.logo-house:hover {
+    color: #d18c5a;
 }
 
 .subtitle-logo {
@@ -102,6 +107,11 @@ h3 {
     font-size: 15px;
     line-height: 160%;
     color: #545454;
+    transition: all 0.5s;
+}
+
+.nav-link:hover {
+    color: #d18c5a;
 }
 
 .active {
@@ -110,7 +120,7 @@ h3 {
 }
 
 .active:hover {
-    border-bottom: 0;
+    color: #545454;
 }
 
 /* main  */
@@ -199,7 +209,7 @@ h3 {
     width: 52px; 
     height: 52px; 
     border-radius: 50%;
-    border: 2px solid #F1CDB3;
+    border: 2px solid #F1CDB3; 
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -216,10 +226,16 @@ h3 {
 
 .navig-active {
     background: #F1CDB3;
+    cursor: pointer;
 }
 
-.shift-left .navigation button{
-    border: 2px solid #F6F6F6;
+.shift-right {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.shift-right:hover {
+    background: #F1CDB3;
 }
 
 
@@ -292,6 +308,14 @@ h3 {
     line-height: 115%;
     letter-spacing: 0.06em;
     color: #F1CDB3;
+    transition: all 0.5s;
+}
+
+.email:hover,
+.phone:hover,
+.city1:hover,
+.city2:hover {
+    color: #FAFAFA;
 }
 
 .map-1 {
